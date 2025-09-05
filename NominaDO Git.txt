@@ -1,0 +1,1 @@
+echo "# nominaDO" >> README.md; git init; git add README.md; git commit -m "first commit"; git branch -M main; git remote add origin https://github.com/biendemarketing/nominaDO.git; git config --global user.name "biendemarketing"; git config --global user.email "biendemarketing@gmail.com"; git push -u origin main
