@@ -23,6 +23,8 @@
         "./*"
       ]
     },
-    "noEmit": true
+    "noEmit": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true
   }
 }
