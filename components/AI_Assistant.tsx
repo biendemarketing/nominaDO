@@ -27,7 +27,7 @@ const AI_Assistant: React.FC = () => {
     }, [isOpen]);
 
     useEffect(() => {
-        const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
+        const apiKey = import.meta.env.VITE_API_KEY;
         if (!apiKey) {
             console.error("VITE_GEMINI_API_KEY not found. Please set it in your .env file.");
             setMessages([{ role: 'model', text: 'Error de configuración: La clave de API de Gemini no fue encontrada.' }]);
