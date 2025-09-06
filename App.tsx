@@ -25,7 +25,6 @@ import FAQ from './components/FAQ';
 import PaymentDispersion from './components/PaymentDispersion';
 import { AppView, AuthView, Employee, Contract, EmployeeDocument, LiquidacionRun, PendingLiquidation, EmployeeStatus, Task } from './types';
 import { MOCK_EMPLOYEES, MOCK_CONTRACTS, MOCK_DOCUMENTS, MOCK_LIQUIDACIONES, MOCK_TASKS, MOCK_PAYROLL_HISTORY } from './constants';
-import AI_Assistant from './components/AI_Assistant';
 
 const App: React.FC = () => {
   // Authentication State
@@ -289,10 +288,11 @@ const App: React.FC = () => {
           employees={employees}
         />
       )}
-
-      <AI_Assistant />
     </div>
   );
+};
+
+export default App;
 };
 
 export default App;
